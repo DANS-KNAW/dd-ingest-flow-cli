@@ -29,7 +29,7 @@
     <artifactId>dd-ingest-flow-cli</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 
-    <name>Dd Ingest Flow Cli</name>
+    <name>DD Ingest Flow Cli</name>
     <url>https://github.com/DANS-KNAW/dd-ingest-flow-cli</url>
     <description>Command-line client for DD Ingest Flow</description>
     <inceptionYear>2024</inceptionYear>
