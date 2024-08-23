@@ -17,16 +17,15 @@
 package nl.knaw.dans.ingestcli;
 
 import lombok.extern.slf4j.Slf4j;
-import nl.knaw.dans.lib.util.AbstractCommandLineApp;
-import nl.knaw.dans.lib.util.CliVersionProvider;
 import nl.knaw.dans.ingestcli.config.DdIngestFlowCliConfig;
-import picocli.AutoComplete.GenerateCompletion;
+import nl.knaw.dans.lib.util.AbstractCommandLineApp;
+import nl.knaw.dans.lib.util.PicocliVersionProvider;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 
 @Command(name = "ingest-flow",
          mixinStandardHelpOptions = true,
-         versionProvider = CliVersionProvider.class,
+         versionProvider = PicocliVersionProvider.class,
          description = "Command-line client for DD Ingest Flow")
 @Slf4j
 public class DdIngestFlowCli extends AbstractCommandLineApp<DdIngestFlowCliConfig> {
